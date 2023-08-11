@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAS Buffet e Eventos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Flex:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">DAS Buffet e Eventos</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-das"><i class="bi bi-house-door me-1"></i>Sobre DAS Buffet</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link " href="#eventos"><i class="bi bi-calendar-check me-1"></i>Eventos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link " href="#cardapio"><i class="bi bi-card-text me-1"></i>Nosso Cardápio</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link " href="#pre-orcamento"><i class="bi bi-chat-left-text me-1"></i>Pré
+                            orçamento</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link " href="#fale-conosco"><i class="bi bi-chat-left-text me-1"></i>Fale
+                            conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section>
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100 img-fluid"
+                            src="imagens/slides/slide-1.jpg" alt="slide-1">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img class="d-block w-100 img-fluid"
+                            src="imagens/slides/slide-2.jpg" alt="slide-2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100 img-fluid"
+                            src="imagens/slides/slide-3.jpg" alt="slide-3">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100 img-fluid"
+                            src="imagens/slides/slide-4.jpg" alt="slide-4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" id="sobre-das">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="d-block w-100 rounded img-fluid img-thumbnail"
+                                src="imagens/sobre/sobre-das-buffet.jpg"
+                                alt="espaço interno">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre o Buffet e Eventos em Domicilio</h2>
+                            <p>
+                                Trabalhamos para tornar sua festa em um momento único, mágico e inesquecível!!
+                            </p>
+                            <h2 class="section-title">Sobre o espaço</h2>
+                            <p>
+                                Contamos com profissionais sérios, dedicados e comprometidos para fazer com que seu
+                                evento seja um sucesso!
+                                Planejamos, organizamos e executamos sua festa com todo carinho e dedicação!
+                                Conte com a nossa experiência, deixe o trabalho por nossa conta e apenas desfrute desse
+                                momento tão especial!!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container eventos1">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas as ocasiões</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2 img-thumbnail"
+                            src="imagens/eventos/aniversario.jpg" alt="aniversario">
+                        <div class="d-flex justify-content-between align-items-baseline">
+                            <div class="form-check">
+                                <h3 class="section-title fs-4 pt-2">
+                                    <i class="bi bi-calendar-heart-fill"></i>
+                                    Aniversários
+                                </h3>
+                                <input class="form-check-input" type="radio" name="evento" value="aniversario"
+                                    id="checkbox-aniversario">
+                                <label class="form-check-label" for="checkbox-aniversario"></label>
+                            </div>
+                        </div>
+                        <p>
+                            A organização de uma festa de aniversário pode ser tão divertida quanto o próprio evento se
+                            você contar com as dicas certas para pensar em todos os detalhes. Desde inspirações de temas
+                            e decoração, até os detalhes das lembrancinhas, tudo precisa ser bem pensado para que o dia
+                            seja ainda mais especial.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb- img-thumbnail"
+                            src="imagens/eventos/casamento.jpg" alt="casamento">
+                        <div class="d-flex justify-content-between align-items-baseline">
+                            <div class="form-check">
+                                <h3 class="section-title fs-4 pt-3">
+                                    <i class="bi bi-arrow-through-heart-fill"></i>
+                                    Recepção para casamentos
+                                </h3>
+                                <input class="form-check-input" type="radio" name="evento" value="casamentos"
+                                    id="checkbox-casamentos">
+                                <label class="form-check-label" for="checkbox-casamentos"></label>
+                            </div>
+                        </div>
+                        <p>
+                            Uma empresa com mais de uma década de experiência na realização de sonhos, com profissionais
+                            impecáveis e apaixonados por música! Realizando cerimônias emocionantes e inesquecíveis!
+                            Entre em contato e confira nossas formações e condições especiais!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2 img-thumbnail"
+                            src="imagens/eventos/confraternizacoes.jpg"
+                            alt="confraternizacoes">
+                        <div class="d-flex justify-content-between align-items-baseline">
+                            <div class="form-check">
+                                <h3 class="section-title fs-4 pt-2">
+                                    <i class="bi bi-people-fill"></i>
+                                    Confraternizações
+                                </h3>
+                                <input class="form-check-input" type="radio" name="evento" value="confraternizacoes"
+                                    id="checkbox-confraternizacoes">
+                                <label class="form-check-label" for="checkbox-confraternizacoes"></label>
+                            </div>
+                        </div>
+                        <p>
+                            Se você está procurando um entretenimento de alta qualidade para seu próximo evento
+                            corporativo, nós temos a solução perfeita para você! A DAS Buffet vai criar uma atmosfera
+                            animada e agradável que vai encantar seus convidados e ajudar a tornar seu evento
+                            inesquecível.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso <span>cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-nao-alcoolicas"
+                                class="fw-bold text-start nav-link text-colored active">Bebidas não alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas"
+                                class=" fw-bold text-start nav-link text-colored">Bebidas alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-entradas"
+                                class=" fw-bold text-start nav-link text-colored">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais"
+                                class=" fw-bold text-start nav-link text-colored">Pratos principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas"
+                                class=" fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-nao-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/refri-1.jpg"
+                                            alt="refri-1">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Coca-cola</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-cocacola">
+                                                <label class="form-check-label" for="checkbox-cocacola"></label>
+                                            </div>
+                                        </div>
+                                        <p>Coca-cola gelo e limão.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/refri-2.jpg"
+                                            alt="refri-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Geladeiras</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-geladeiras">
+                                                <label class="form-check-label" for="checkbox-geladeiras"></label>
+                                            </div>
+                                        </div>
+                                        <p>Tudo na temperatura ideal.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/refri-3.jpg"
+                                            alt="refri-3">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Sprite Limon</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-sprite">
+                                                <label class="form-check-label" for="checkbox-sprite"></label>
+                                            </div>
+                                        </div>
+                                        <p>Sabores de sua preferência.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/refri-4.jpg"
+                                            alt="refri-4">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Máquinas</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-maquinas">
+                                                <label class="form-check-label" for="checkbox-maquinas"></label>
+                                            </div>
+                                        </div>
+                                        <p>Diversos sabores.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/suco-1.jpg"
+                                            alt="suco-1">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Melância</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-melancia">
+                                                <label class="form-check-label" for="checkbox-melancia"></label>
+                                            </div>
+                                        </div>
+                                        <p>Suco de melância.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/suco-2.jpg"
+                                            alt="suco-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Sucos váriados</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-sabores">
+                                                <label class="form-check-label" for="checkbox-sabores"></label>
+                                            </div>
+                                        </div>
+                                        <p>Frutas a sua escolha.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/suco-3.jpg"
+                                            alt="suco-3">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Vitaminas</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-vitaminas">
+                                                <label class="form-check-label" for="checkbox-vitaminas"></label>
+                                            </div>
+                                        </div>
+                                        <p>Combo de vitaminas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/suco-4.jpg"
+                                            alt="suco-4">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Bebidas Exóticas</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-exoticas">
+                                                <label class="form-check-label" for="checkbox-exoticas"></label>
+                                            </div>
+                                        </div>
+                                        <p>Drinks de frutas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/cerveja-1.jpg"
+                                            alt="cerveja-1">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Heineken</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-heineken">
+                                                <label class="form-check-label" for="checkbox-heineken"></label>
+                                            </div>
+                                        </div>
+                                        <p>Long Neck e latas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/cerveja-2.jpg"
+                                            alt="cerveja-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Corona</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-corona">
+                                                <label class="form-check-label" for="checkbox-corona"></label>
+                                            </div>
+                                        </div>
+                                        <p>Long Neck e latas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/cerveja-3.jpg"
+                                            alt="cerveja-3">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Chopp</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-chopp">
+                                                <label class="form-check-label" for="checkbox-chopp"></label>
+                                            </div>
+                                        </div>
+                                        <p>Diversas marcas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/cerveja-4.jpg"
+                                            alt="cerveja-4">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Brahma</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-brahma">
+                                                <label class="form-check-label" for="checkbox-brahma"></label>
+                                            </div>
+                                        </div>
+                                        <p>Long Neck e latas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/forte-1.jpg"
+                                            alt="forte-1">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Jack daniel's</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-jack">
+                                                <label class="form-check-label" for="checkbox-jack"></label>
+                                            </div>
+                                        </div>
+                                        <p>Whisky jack daniel's.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/forte-2.jpg"
+                                            alt="forte-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Red label</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-red">
+                                                <label class="form-check-label" for="checkbox-red"></label>
+                                            </div>
+                                        </div>
+                                        <p>Whisky red label.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/forte-3.jpg"
+                                            alt="forte-3">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Chivas regal</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-chivas">
+                                                <label class="form-check-label" for="checkbox-chivas"></label>
+                                            </div>
+                                        </div>
+                                        <p>Whisky chivas regal</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/bebidas/forte-4.jpg"
+                                            alt="forte-4">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Drinks</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-drinks">
+                                                <label class="form-check-label" for="checkbox-drinks"></label>
+                                            </div>
+                                        </div>
+                                        <p>Coquetel de drinks.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/entradas/entrada-1.jpg"
+                                            alt="entrada-1">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Entrada 1</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-entrada-1">
+                                                <label class="form-check-label" for="checkbox-entrada-1"></label>
+                                            </div>
+                                        </div>
+                                        <p>Salame e guarnições</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/entradas/entrada-2.jpg"
+                                            alt="entrada-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Entrada 2</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-entrada-2">
+                                                <label class="form-check-label" for="checkbox-entrada-2"></label>
+                                            </div>
+                                        </div>
+                                        <p>Croissant morango e banana.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/entradas/entrada-3.jpg"
+                                            alt="entrada-3">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Entrada 3</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-entrada-3">
+                                                <label class="form-check-label" for="checkbox-entrada-3"></label>
+                                            </div>
+                                        </div>
+                                        <p>Pães ovos e bacon.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/entradas/entrada-4.jpg"
+                                            alt="entrada-4">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Entrada 4</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-entrada-4">
+                                                <label class="form-check-label" for="checkbox-entrada-4"></label>
+                                            </div>
+                                        </div>
+                                        <p>Rabanada morango e banana.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/entradas/entrada-5.jpg"
+                                            alt="entrada-5">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Entrada 5</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-entrada-5">
+                                                <label class="form-check-label" for="checkbox-entrada-5"></label>
+                                            </div>
+                                        </div>
+                                        <p>Torta de laranja e uvas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/entradas/entrada-6.jpg"
+                                            alt="entrada-6">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Entrada 6</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-entrada-6">
+                                                <label class="form-check-label" for="checkbox-entrada-6"></label>
+                                            </div>
+                                        </div>
+                                        <p>Frango ovos e frutas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/entradas/entrada-7.jpg"
+                                            alt="entrada-7">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Entrada 7</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-entrada-7">
+                                                <label class="form-check-label" for="checkbox-entrada-7"></label>
+                                            </div>
+                                        </div>
+                                        <p>Croissant e salame.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/entradas/entrada-8.jpg"
+                                            alt="entrada-8">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Entrada 8</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-entrada-8">
+                                                <label class="form-check-label" for="checkbox-entrada-8"></label>
+                                            </div>
+                                        </div>
+                                        <p>Queijo gorgonzola e mel.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/pratos/prato-1.jpg"
+                                            alt="prato-1">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Prato 1</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-prato-1">
+                                                <label class="form-check-label" for="checkbox-prato-1"></label>
+                                            </div>
+                                        </div>
+                                        <p>Arroz e sopa de camarão.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/pratos/prato-2.jpg"
+                                            alt="prato-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Prato 2</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-prato-2">
+                                                <label class="form-check-label" for="checkbox-prato-2"></label>
+                                            </div>
+                                        </div>
+                                        <p>Mandioquinha e pão italiano.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/pratos/prato-3.jpg"
+                                            alt="prato-3">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Prato 3</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-prato-3">
+                                                <label class="form-check-label" for="checkbox-prato-3"></label>
+                                            </div>
+                                        </div>
+                                        <p>Filé de cação.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/pratos/prato-4.jpg"
+                                            alt="prato-4">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Prato 4</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-prato-4">
+                                                <label class="form-check-label" for="checkbox-prato-4"></label>
+                                            </div>
+                                        </div>
+                                        <p>Picanha de porco.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/pratos/prato-5.jpg"
+                                            alt="prato-5">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Prato 5</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-prato-5">
+                                                <label class="form-check-label" for="checkbox-prato-5"></label>
+                                            </div>
+                                        </div>
+                                        <p>Picanha bovina ao molho.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/pratos/prato-6.jpg"
+                                            alt="prato-6">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Prato 6</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-prato-6">
+                                                <label class="form-check-label" for="checkbox-prato-6"></label>
+                                            </div>
+                                        </div>
+                                        <p>Filé mignon ao molho.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/pratos/prato-7.jpg"
+                                            alt="prato-7">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Prato 7</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-prato-7">
+                                                <label class="form-check-label" for="checkbox-prato-7"></label>
+                                            </div>
+                                        </div>
+                                        <p>Salmão ao molho verde.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/pratos/prato-8.jpg"
+                                            alt="prato-8">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Prato 8</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-prato-8">
+                                                <label class="form-check-label" for="checkbox-prato-8"></label>
+                                            </div>
+                                        </div>
+                                        <p>Filé de dourado a milanesa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/sobremesas/sobremesa-1.jpg"
+                                            alt="sobremesa-1">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Sobremesa 1</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-sobremesa-1">
+                                                <label class="form-check-label" for="checkbox-sobremesa-1"></label>
+                                            </div>
+                                        </div>
+                                        <p>Manjar de côco com amoras.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/sobremesas/sobremesa-2.jpg"
+                                            alt="sobremesa-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Sobremesa 2</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-sobremesa-2">
+                                                <label class="form-check-label" for="checkbox-sobremesa-2"></label>
+                                            </div>
+                                        </div>
+                                        <p>Bolo morango com chocolate.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/sobremesas/sobremesa-3.jpg"
+                                            alt="sobremesa-3">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Sobremesa 3</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-sobremesa-3">
+                                                <label class="form-check-label" for="checkbox-sobremesa-3"></label>
+                                            </div>
+                                        </div>
+                                        <p>Sorvete com pão de Israel.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/sobremesas/sobremesa-4.jpg"
+                                            alt="sobremesa-4">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Sobremesa 4</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-sobremesa-4">
+                                                <label class="form-check-label" for="checkbox-sobremesa-4"></label>
+                                            </div>
+                                        </div>
+                                        <p>Bolo de chocolate e amoras.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/sobremesas/sobremesa-5.jpg"
+                                            alt="sobremesa-5">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Sobremesa 5</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-sobremesa-5">
+                                                <label class="form-check-label" for="checkbox-sobremesa-5"></label>
+                                            </div>
+                                        </div>
+                                        <p>Torta de amoras e mirtilos.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/sobremesas/sobremesa-6.jpg"
+                                            alt="sobremesa-6">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Sobremesa 6</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-sobremesa-6">
+                                                <label class="form-check-label" for="checkbox-sobremesa-6"></label>
+                                            </div>
+                                        </div>
+                                        <p>Creme maracujá com amoras.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/sobremesas/sobremesa-7.jpg"
+                                            alt="sobremesa-7">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Sobremesa 7</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-sobremesa-7">
+                                                <label class="form-check-label" for="checkbox-sobremesa-7"></label>
+                                            </div>
+                                        </div>
+                                        <p>Creme chocolate e cerejas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-thumbnail"
+                                            src="imagens/cardapio/sobremesas/sobremesa-8.jpg"
+                                            alt="sobremesa-8">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <h5 class="fw-bold mt-2">Sobremesa 8</h5>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkbox-sobremesa-8">
+                                                <label class="form-check-label" for="checkbox-sobremesa-8"></label>
+                                            </div>
+                                        </div>
+                                        <p>Torta de limão e morangos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pre-orcamento" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Informações para pré orçamento</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form id="form-inf-orcamento">
+                            <div class="mb-3">
+                                <label for="tipo-evento" class="form-label fw-bold">Tipo de Evento:</label>
+                                <input type="text" id="tipo-evento" class="form-control fw-bold text-left" name="tipoevento"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nao-alcoolicas1" class="form-label fw-bold">Bebidas não alcoolicas:</label>
+                                <input type="text" id="nao-alcoolicas1" class="form-control mb-2 fw-bold"
+                                    name="nao-alcoolicas1" required>
+                                <input type="text" id="nao-alcoolicas2" class="form-control fw-bold"
+                                    name="nao-alcoolicas2" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="alcoolicas1" class="form-label fw-bold">Bebidas alcoolicas:</label>
+                                <input type="text" id="alcoolicas1" class="form-control fw-bold mb-2" name="alcoolicas1"
+                                    required>
+                                <input type="text" id="alcoolicas2" class="form-control fw-bold" name="alcoolicas2"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="pratos-entrada1" class="form-label fw-bold">Pratos de entrada:</label>
+                                <input type="text" id="pratos-entrada1" class="form-control fw-bold mb-2"
+                                    name="pratos-entrada1" required>
+                                <input type="text" id="pratos-entrada2" class="form-control fw-bold"
+                                    name="pratos-entrada2" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="principais1" class="form-label fw-bold">Pratos principais:</label>
+                                <input type="text" id="principais1" class="form-control fw-bold mb-2" name="principais1"
+                                    required>
+                                <input type="text" id="principais2" class="form-control fw-bold" name="principais2"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="sobremesas1" class="form-label fw-bold">Sobremesas:</label>
+                                <input type="text" id="sobremesas1" class="form-control fw-bold mb-2" name="sobremesas1"
+                                    required>
+                                <input type="text" id="sobremesas2" class="form-control fw-bold" name="sobremesas2"
+                                    required>
+                            </div>
+                            <button type="submit" class="btn btn-dark fw-bold" id="orcar">Pré orçamento enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form id="form-fale-conosco">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Nome completo:</label>
+                                <input type="text" id="nome" class="form-control" name="nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">E-mail:</label>
+                                <input type="email" id="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Celular:</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem:</label>
+                                <textarea class="form-control mb-3" id="mensagem" name="mensagem" required></textarea>
+                                <button type="submit" class="btn fw-bold" id="enviar">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="list-unstyled">
+                                <li class="fs-5 d-inline-block">
+                                    <a href="#" class="list-unstyled">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 d-inline-block ms-1 me-1">
+                                    <a href="#" class="list-unstyled">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 d-inline-block">
+                                    <a href="#" class="list-unstyled">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Exemplo nº 195, Bairro Bootstrap - Mogi das Cruzes - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container text-center text-light pt-2 pb-2">
+                &copy; 2023 - DAS Buffet e Eventos em Domilicio - Todos Direitos Reservados - Desenvolvido por Web
+                Master Deive Silva
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
