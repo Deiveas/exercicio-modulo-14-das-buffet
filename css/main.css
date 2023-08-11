@@ -72,8 +72,3 @@ footer {
     background-color: #0A0A2A;
 }
 
-@media (max-width: 767px) {
-    .carousel-item img{
-        height: 280px;
-    }
-}
